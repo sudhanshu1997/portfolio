@@ -4,29 +4,37 @@
    display: flex;
 
    justify-content: center;
+  
 
  }
 .nav-link{
     color: #fff;
+    font-size: 25px;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content:space-around;
+    margin: auto;
+    
+   
+    
 }
  
 .hero{
     background-color: #0A0808;
-    height: 80vh;
+    height: 110vh;
 }
+
 #profile_pic{
     height: 200px;
-    width:  200px;
-} 
-#profile_pic{
-    height: 150px;
-    width: 150px;
+    width: 200px;
     object-fit: cover;
+    margin-bottom: 1em;
+    
 }
 .hero--content{
     width: 800px;
     margin: 0 auto;
-    padding: 5em;
+    padding: 1em;
 
 }
 .hero--content--intro{
@@ -36,9 +44,50 @@
     justify-content: center;
     gap: 3em;
 
+  
+    
+
 }
 .intro--name{
-    font-size: 72px;
+    display: flex;
+    font-size: 90px;
+    color: #fff;
+  
+    font-weight: 700;
+    margin-bottom: 10em;
+    position: absolute;
+    top: 80px;
+    right: 250px;
+
+
+}
+.discription{
+    font-size: 65px;
+    text-align: center;
+    position: absolute;
+    top: 400px;
+    right: 600px;
     color: #fff;
 
+
+}
+.slogan{
+    font-size: 28px;
+    text-align: center;
+    position: absolute;
+    top: 550px;
+    right: 100px;
+    color: #fff;
+
+    
+}
+.project--wrapper{
+    display: flex;
+
+}
+.project--column{
+    width: 300px;
+}
+.project--thumbnail{
+    width: 100%;
 }

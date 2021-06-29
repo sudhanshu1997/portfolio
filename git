@@ -1,0 +1,8 @@
+git add . (to add chnaged files)
+git commit -m "" (to commit changes)
+git push -u origin branchname (to push changes to github repo)
+git status
+git checkout branchname (to switch to branch)
+git pull (to pull the latest repo)
+git checkout -b branchname (to create a new branch and switch to that branch in local)
+git branch (see list of branch)
